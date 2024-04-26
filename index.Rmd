@@ -1,0 +1,14 @@
+---
+title: "Statistica"
+output: markdowntemplates::minimal
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Università Ca' Foscari di Venezia, Corso di Laurea triennale in Economia e Commercio. Statistica (Dl-Pas). (60 ore).
+
+
+
+
