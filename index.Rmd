@@ -1,5 +1,5 @@
 ---
-title: "Statistica"
+title: "Statistica (Dl-Pas)"
 output: markdowntemplates::minimal
 ---
 
@@ -7,8 +7,175 @@ output: markdowntemplates::minimal
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Università Ca' Foscari di Venezia, Corso di Laurea triennale in Economia e Commercio. Statistica (Dl-Pas). (60 ore).
+Università Ca' Foscari di Venezia, Corso di Laurea triennale in Economia e Commercio. 
+
+## Esame
+
+L'esame finale prevede una prova scritta e, a discrezione del docente, una prova orale.
+Esempi di domande sono reperibili nell'area dedicata al corso sulla piattaforma e-learning Moodle dell'Ateneo.
+
+##  Contenuti
+
+1. [Calcolo elementare delle probabilità](docs/1_probabilita.pdf)
+2. Variabili aleatorie
+3. [Statistica descrittiva](docs/3_descrittiva.pdf)
+4. [Inferenza statistica](docs/4_inferenza.pdf)
+
+## Risultati di apprendimento attesi
+
+Il corso mira a fornire una adeguata conoscenza dei principali strumenti della probabilità e della statistica inferenziale utilizzati nell'analisi e nell'interpretazione dei fenomeni economici nelle loro varie manifestazioni.
+
+## Testo di riferimento
+
+Boella M., Probabilità e Statistica per ingegneria e scienze. Pearson, II ed. 2020.
+
+
+### Capitolo 1
+
+ARGOMENTO <br>
+**Probabilità** 
+
+Introduzione alla teoria degli insiemi; spazi campionari ed eventi; la famiglia degli eventi. Definizioni, assiomatizzazione e proprietà della misura di probabilità; spazi equiprobabili; introduzione al calcolo combinatorio. Probabilità condizionata e applicazioni; eventi indipendenti; teorema di Bayes.
+
+LIBRO DI TESTO <br> 
+§1.1, §1.2, §1.3, §1.4, §1.5, §1.6, §1.7 <br>
+§Appendice B.1 <br>
+§Appendice B.2, C <br>
+
+ESERCIZI <br> 
+tbd <br> 
+
+### Capitolo 2 
+
+ARGOMENTO <br>
+**Variabili aleatorie** 
+
+Variabili discrete e continue; valore atteso e momenti; quantili; trasformazioni di variabili aleatorie. 
+
+LIBRO DI TESTO <br> 
+§2.1, §2.2, §2.3, §2.4, §2.5 (escluso §2.5.3), §2.6 (escluso §2.6.2, §2.6.6), §2.7
+
+ESERCIZI <br> 
+tbd <br>
+
+### Capitolo 3
+
+ARGOMENTO <br>
+**Variabili aleatorie notevoli. Applicazioni** 
+
+Principali modelli distributivi (Bernoulli, Binomiale, Ipergeometrica, Poisson, Uniforme, Gaussiano); Approssimazioni. 
+
+LIBRO DI TESTO <br> 
+§3.1, §3.2, §3.3, §3.4, §3.6, §3.7, §3.8 <br>
+
+ESERCIZI <br> 
+tbd <br>
+
+### Capitolo 4
+
+ARGOMENTO <br>
+**Vettori aleatori** 
+
+Variabili doppie discrete, covarianza e correlazione; alcune rilevanti proprietà delle variabili casuali multivariate.
+
+LIBRO DI TESTO <br> 
+§4.1, §4.2, §4.3, §4.5, §4.7.1, §4.7.3, §4.7.4, §4.7.5, §4.8 <br>
+
+ESERCIZI <br> 
+tbd <br>
+
+### Appendice A
+
+ARGOMENTO <br>
+**Statistica descrittiva** 
+
+Classificazione e rilevazione dei dati; distribuzioni di frequenza; indici statistici e principali.rappresentazioni grafiche.
+
+LIBRO DI TESTO <br> 
+§A.1, §A.2, §A.3, §A.4, §A.5, §A.6 <br>
+
+ESERCIZI <br> 
+tbd <br>
+
+
+### Capitolo 5
+
+ARGOMENTO <br>
+**Campioni e teoremi limite** 
+
+Successioni di variabili aleatorie, legge dei grandi numeri e teorema centrale del limite.
+
+LIBRO DI TESTO <br> 
+§5.1, §5.2, §5.3.1, §5.3.2 <br>
+
+ESERCIZI <br> 
+tbd <br>
+
+### Capitolo 6
+
+ARGOMENTO <br>
+**Stima di parametri** 
+
+Inferenza statistica: modello statistico parametrico e campionamento; stima puntuale e proprietà degli stimatori; stima puntuale e stima intervallare. 
+
+LIBRO DI TESTO <br> 
+§6.1, §6.3, §6.4.1, §6.5 <br>
+
+ESERCIZI <br> 
+tbd <br>
+
+
+### Capitolo 7
+
+ARGOMENTO <br>
+**Verifica di ipotesi** 
+
+Inferenza statistica: verifica di ipotesi; test di bontà di adattamento, di indipendenza e di omogeneità. 
+
+LIBRO DI TESTO <br> 
+§7.1, §7.2, §7.3.1, §7.3.2, §7.3.4, §7.4.1, §7.4.2, §7.4.3 <br>
+
+ESERCIZI <br> 
+tbd <br>
 
 
 
 
+
+
+
+## Progettazione del corso
+
+Il corso richiede un impegno di 300 ore per ottenere 6 Crediti Formativi Universitari (CFU), di cui 60 ore in aula e 20 ore di esercitazioni. <br>
+Il seguente grafico radar definisce la percentuale di peso e la distribuzione del tempo di ciascun evento di apprendimento all'interno del corso.
+
+```{r, echo=FALSE}
+library(fmsb)
+data <- as.data.frame(matrix( c(40,20,30,10,0,0,0,0) , ncol=8))
+colnames(data) <- c("Contenuti a bassa interattività" ,
+                    "Rielaborazione di contenuti" ,
+                    "Applicazione" ,
+                    "Retrieval" ,
+                    "Riflessione e metacognizione",
+                    "Discussione" ,
+                    "Produzione / Ricerca" ,
+                    "Contenuti ad alta interattività" )
+#add 2 lines to the dataframe: the max and min of each topic to show on the plot
+data <- rbind(rep(40,8) , rep(0,8) , data)
+radarchart(data, centerzero=T, axistype=1, axislabcol = "grey", cglcol = "grey", cglty = 1, cglwd = 0.8,
+           caxislabels = c(0, 10, 20, 30, 40),
+           pcol = "#00AFBB", pfcol = scales::alpha("#00AFBB", 0.5), plwd = 2, plty = 1)
+```
+
+Contenuti a bassa interattività (40%): lezione frontale, lettura libro <br>
+Rielaborazione di contenuti (20%): riassunti, schemi <br>
+Applicazione (30%): esercizi <br>
+Retrieval (10%): quiz <br>
+
+Si veda il metodo [Smart Learning Design 25](https://www.metid.polimi.it/en/)  per ulteriori dettagli.
+
+
+
+## Riconoscimenti
+
+Vorrei ringraziare i Professori Andrea Pastore e Stefano Tonnellato per aver fornito tutto il materiale del corso e la struttura del corso. Eventuali errori o refusi sono esclusivamente mia responsabilità.
