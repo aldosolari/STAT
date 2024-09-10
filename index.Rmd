@@ -18,8 +18,8 @@ Esempi di domande sono reperibili nell'area dedicata al corso sulla piattaforma 
 
 1. [Calcolo elementare delle probabilità](docs/1_probabilita.pdf)
 2. Variabili aleatorie
-3. [Statistica descrittiva](docs/3_descrittiva.pdf)
-4. [Inferenza statistica](docs/4_inferenza.pdf)
+3. [Inferenza statistica](docs/4_inferenza.pdf)
+4. [(Statistica descrittiva)](docs/3_descrittiva.pdf)
 
 ## Risultati di apprendimento attesi
 
@@ -84,18 +84,6 @@ LIBRO DI TESTO <br>
 ESERCIZI <br> 
 tbd <br>
 
-### Appendice A
-
-ARGOMENTO <br>
-**Statistica descrittiva** 
-
-Classificazione e rilevazione dei dati; distribuzioni di frequenza; indici statistici e principali.rappresentazioni grafiche.
-
-LIBRO DI TESTO <br> 
-§A.1, §A.2, §A.3, §A.4, §A.5, §A.6 <br>
-
-ESERCIZI <br> 
-tbd <br>
 
 
 ### Capitolo 5
@@ -139,7 +127,18 @@ ESERCIZI <br>
 tbd <br>
 
 
+### Appendice A
 
+ARGOMENTO <br>
+**Statistica descrittiva** 
+
+Classificazione e rilevazione dei dati; distribuzioni di frequenza; indici statistici e principali.rappresentazioni grafiche.
+
+LIBRO DI TESTO <br> 
+§A.1, §A.2, §A.3, §A.4, §A.5, §A.6 <br>
+
+ESERCIZI <br> 
+tbd <br>
 
 
 
